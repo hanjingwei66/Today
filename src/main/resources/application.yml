@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.97.204.53:3306/hanqing?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: Hanjingwei@77521
+server:
+  port: 8082
+corePoolSize: 10
+maxPoolSize: 100
+queueCapacity: 200
